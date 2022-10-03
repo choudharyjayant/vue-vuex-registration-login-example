@@ -1,5 +1,3 @@
 #!/bin/bash
-
-# Stop all servers and start the server as a daemon
-#forever stopall
-nohup /home/ubuntu/vuejs/index.js > /dev/null 2>&1 &
+cd /home/ubuntu/Vuejs/
+nohup npm run serve> /dev/null 2>&1 &
